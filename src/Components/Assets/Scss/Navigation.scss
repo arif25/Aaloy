@@ -1,0 +1,28 @@
+.secNavigation {
+    padding: 10px 0;
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    ul {
+        display: flex;
+        justify-content: end;
+        list-style: none;
+        margin: 0;
+        li {
+            a {
+                padding: 20px 20px;
+                text-decoration: none;
+                font-size: 18px;
+                color: #000;
+                font-weight: bold;
+                display: block;
+            }
+        }
+    }
+    .logo {
+        img {
+            width: 64px;
+        }
+    }
+}

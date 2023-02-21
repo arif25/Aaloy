@@ -1,0 +1,31 @@
+
+
+.sec-HomeWatchVideo{
+    .bxHomeWatchVideo {
+        background: #ccc;
+        padding: 44px;
+        border-radius: 5px;
+        background-image: url("../Images/watch-video.jpg");
+        background-size: cover;
+    }
+    .titleVideo {
+        font-size: 38px;font-weight: bold;margin-bottom: 16px;
+    }
+    .contentvideo {
+        font-size: 42px;
+        margin-bottom: 24px;
+    }
+    .btnHomeVideo {
+        width: 271px;
+        text-align: center;
+        a{
+            background-color: rgb(247, 181, 2);
+            color: #fff;
+            padding: 9px 20px 13px;
+            text-decoration: none;
+            font-size: 32px;
+            display: block;
+            border-radius: 7px;
+        }
+    }
+}
