@@ -13,7 +13,7 @@ import Propertyadd from "./Components/Propertyadd/Propertyadd";
 function App() {
   return (
     <div className="App">
-      {/* <Home /> */}
+      <Home />
       {/* <Contactus /> */}
       {/* <Termsandcondition /> */}
       {/* <Propertylisting /> */}
@@ -21,7 +21,7 @@ function App() {
       {/* <Propertydetails /> */}
       {/* <Thankyou /> */}
       {/* <Shoppingcart /> */}
-      <Propertyadd />
+      {/* <Propertyadd /> */}
     </div> 
   );
 }
