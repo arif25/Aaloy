@@ -45,13 +45,13 @@
         display: flex;
         justify-content: space-between;
         a {
-            text-decoration: none;
-            padding: 6px 10px 8px;
-            border: 1px solid rgb(233 194 155);
+            border: 1px solid #e9c29b;
             border-radius: 4px;
-            font-size: 13px;
+            color: #da7e22;
             display: block;
-            color: rgb(218, 126, 34);
+            font-size: 12px;
+            padding: 6px 8px 8px;
+            text-decoration: none;
             &:hover, &.active {
                 background-color: rgb(239 146 50);
                 color: #fff;
