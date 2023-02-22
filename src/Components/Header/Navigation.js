@@ -21,9 +21,9 @@ const Navigation = () => {
                     <li><NavLink to='/propertydetails'>Blogs</NavLink></li>
                     <li><NavLink to='/contactus'>Contact us</NavLink></li>
 
-                    <li><NavLink to='/shoppingcart'>Contact us</NavLink></li>
-                    <li><NavLink to='/propertyadd'>Contact us</NavLink></li>
-                    <li><NavLink to='/thankyou'>Contact us</NavLink></li>
+                    <li><NavLink to='/shoppingcart'>page1</NavLink></li>
+                    <li><NavLink to='/propertyadd'>page2</NavLink></li>
+                    <li><NavLink to='/thankyou'>page3</NavLink></li>
                 </ul>
             </div>
         </section>
