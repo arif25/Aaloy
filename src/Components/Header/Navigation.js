@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "../Assets/Scss/Navigation.scss";
 import logo from "../../logo.svg";
 import logo1 from "../Assets/Images/AALOY-logo.png";
@@ -8,18 +9,21 @@ const Navigation = () => {
         <section className="secNavigation">
             <div className="container">
                 <div className="logo">
-                    <a href="#">
+                    <NavLink to='/'>
                         <img src={logo1} />                    
-                    </a>
+                    </NavLink>
                 </div>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">My Property</a></li>
-                    <li><a href="#">Property</a></li>
-                    <li><a href="#">Blogs</a></li>
-                    <li><a href="#">Contact us</a></li>
-                    <li><a href="#">Home</a></li>
+                    <li><NavLink to='/'>Home</NavLink></li>
+                    <li><NavLink to='/termsandcondition'>About us</NavLink></li>
+                    <li><NavLink to='/propertylisting'>My Property</NavLink></li>
+                    <li><NavLink to='/myproperty'>Property</NavLink></li>
+                    <li><NavLink to='/propertydetails'>Blogs</NavLink></li>
+                    <li><NavLink to='/contactus'>Contact us</NavLink></li>
+
+                    <li><NavLink to='/shoppingcart'>Contact us</NavLink></li>
+                    <li><NavLink to='/propertyadd'>Contact us</NavLink></li>
+                    <li><NavLink to='/thankyou'>Contact us</NavLink></li>
                 </ul>
             </div>
         </section>
