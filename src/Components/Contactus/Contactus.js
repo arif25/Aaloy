@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "../Assets/Scss/Contactus.scss";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
@@ -56,8 +57,8 @@ const Contactus = () => {
                                 <div className="bxinput">
                                     <textarea rows="4" cols="50">Message</textarea>
                                 </div>
-                                <div className="bxinput">
-                                    <input type="submit" />
+                                <div className="bxinput submit">
+                                    <NavLink to='/thankyou'>Submit</NavLink>
                                 </div>
                             </form>
                         </div>

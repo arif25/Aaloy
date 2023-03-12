@@ -102,6 +102,18 @@
                     padding: 16px 12px;
                 }
             }
+            .submit {
+                a {
+                    background: #f39a2c;
+                    color: #fff;
+                    font-size: 20px;
+                    border-radius: 33px;
+                    padding: 16px 12px;
+                    display: block;
+                    width:100%;
+                    text-align: center;
+                }
+            }
         }
     }
 }

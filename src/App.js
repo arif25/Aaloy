@@ -15,16 +15,6 @@ import Propertyadd from "./Components/Propertyadd/Propertyadd";
 function App() {
   return (
     <div className="App">
-      {/* <Home /> */}
-      {/* <Contactus /> */}
-      {/* <Termsandcondition /> */}
-      {/* <Propertylisting /> */}
-      {/* <Myproperty /> */}
-      {/* <Propertydetails /> */}
-      {/* <Thankyou /> */}
-      {/* <Shoppingcart /> */}
-      {/* <Propertyadd /> */}
-
       <BrowserRouter>
           <Routes>
               <Route path="/" element={<Home />} />

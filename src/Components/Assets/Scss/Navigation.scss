@@ -3,26 +3,36 @@
     .container {
         display: flex;
         justify-content: space-between;
-    }
-    ul {
-        display: flex;
-        justify-content: end;
-        list-style: none;
-        margin: 0;
-        li {
-            a {
-                padding: 20px 20px;
-                text-decoration: none;
-                font-size: 18px;
-                color: #000;
-                font-weight: bold;
-                display: block;
-            }
-        }
-    }
+        align-items: center;
+    }    
     .logo {
         img {
             width: 64px;
         }
+    }
+    .navbar-header {
+        flex: auto;
+        width: 120px;
+    }
+    .navbar-inverse {
+        background: none;
+        border: 0px;
+        margin-bottom: 0;
+    }
+    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+        color: #000;
+        background:none;
+    }
+    .navbar-brand {
+        height: auto;
+        padding: 0;
+        margin-left: 0;
+    }
+    .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+        color: #000;
+    }
+    .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+        color: #000;
+        background: none;
     }
 }

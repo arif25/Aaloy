@@ -28,6 +28,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <title>React App</title>
   </head>
   <body>
@@ -47,5 +49,28 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" ></script>
     <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"/>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script>
+      (function($) {
+          $(function() {
+            $('nav ul li a:not(:only-child)').click(function(e) {
+                $(this).siblings('.nav-dropdown').toggle();
+                $('.nav-dropdown').not($(this).siblings()).hide();
+                e.stopPropagation();
+            });
+            $('html').click(function() {
+                $('.nav-dropdown').hide();
+            });
+            $('#nav-toggle').click(function() {
+                $('nav ul').slideToggle();
+            });
+            $('#nav-toggle').on('click', function() {
+                this.classList.toggle('active');
+            });
+          });
+        })(jQuery);  
+    </script>
+
   </body>
 </html>

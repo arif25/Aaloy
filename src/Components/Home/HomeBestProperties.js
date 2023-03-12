@@ -58,9 +58,9 @@ const HomeBestProperties = ()=>{
                                 <div className="contentBestProperties">
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                 </div>
-                                <div className="bxBtnViewDetails">
-                                    <a href="#">View Details</a>                                    
-                                </div>
+                            </div>
+                            <div className="bxBtnViewDetails">
+                                <a href="#">View Details</a>                                    
                             </div>
                         </div>
                     </div>
